@@ -1,5 +1,7 @@
 # Readme
 
+Boiler plate to get you quickly started and writing workflows.  Just edit `worker/workflows/sample1.go` as you like 
+and then follow the instructions below to start worker and workflow.
 
 ## Running the Cadence Service
 
@@ -9,8 +11,7 @@
 
 ## Worker
 Make sure go is installed in system.
-
-Edit `worker/workflows/sample1.go` as you like then navigate back to the project root folder. 
+Navigate back to the project root folder. 
 
 * Worker
     1. `make worker`
