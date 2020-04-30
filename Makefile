@@ -3,7 +3,7 @@
 default: bins
 
 worker:
-	go build -i -o bins/worker app/worker/main.go
+	go build -i -o bins/worker worker/main.go
 
 bins: worker
 

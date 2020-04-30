@@ -9,3 +9,5 @@ require (
 	go.uber.org/yarpc v1.45.0
 	go.uber.org/zap v1.15.0
 )
+
+replace github.com/apache/thrift => github.com/apache/thrift v0.0.0-20190309152529-a9b748bb0e02

@@ -22,7 +22,7 @@ type AppConfig struct {
 // Setup setup the config for the code run
 func (h *AppConfig) Setup() {
 	viper.SetConfigName("application")
-	viper.AddConfigPath("app/resources") // These two lines will make sure viper pulls the config from app/resources/application.yml
+	viper.AddConfigPath("resources") // These two lines will make sure viper pulls the config from app/resources/application.yml
 	viper.AutomaticEnv()                 // This allows viper to read variables from the environment variables if they exists.
 	viper.SetConfigType("yml")
 	if err := viper.ReadInConfig(); err != nil {
